@@ -1,0 +1,117 @@
+body {
+  background-color: #181818
+}
+
+#top {
+  color: white;
+  font-size: 30px;
+  font-family: arial;
+  font-weight: bold;
+  height: 70px;
+}
+
+#title {
+  padding-top: 20px;
+  padding-left: 40px
+}
+
+#login {
+  color: white;
+  display: block;
+  float:right;
+  margin-left:auto;
+  margin-right:0%;
+}
+
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 23px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+#main_menu {
+  color: white;
+  background-color: midnightblue;
+  height: 60px;
+  font-family: arial;
+  font-size: 17px
+}
+
+#menu {
+      text-align: justify;
+      min-width: 500px;
+      padding-top: 20px;
+      padding-left: 400px;
+      padding-right: 400px
+  }
+#menu:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+#menu li {
+    display: inline-block;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+}
+
+.box{
+       position: relative;
+       display: inline-block; /* Make the width of box same as image */
+   }
+.box .text{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 8%; /* Adjust this value to move the positioned div up and down */
+    text-align: left;
+    color: white;
+    width: 94%;
+    font-family: arial;
+    font-size: 28px;
+    font-weight: bold
+  }
+
+  .text_body {
+    text-align: left;
+    color: white;
+    font-family: arial;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px
+  }
+
+  #bottom_menu {
+    background-color: white;
+    height: 300px;
+    padding-left: 40px;
+    padding-right: 40px
+  }
+  .image_menu_text{
+    font-family: arial;
+    font-weight: bold;
+    font-size: 25px
+  }
+
+  .column {
+  float: left;
+  width: 440px;
+  padding: 5px;
+  padding-top: 40px
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
